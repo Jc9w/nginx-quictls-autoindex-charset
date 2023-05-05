@@ -28,7 +28,7 @@ auto/configure --prefix=/etc/nginx --sbin-path=/usr/sbin/nginx \
 --http-uwsgi-temp-path=/var/cache/nginx/uwsgi_temp \
 --user=www-data --group=www-data \
 --with-file-aio --with-threads --with-pcre-jit --with-http_sub_module \
---with-http_ssl_module --with-http_v2_module --with-http_v3_module --with-http_charset_module \
+--with-http_ssl_module --with-http_v2_module --with-http_v3_module \
 --without-select_module --without-poll_module \
 --without-http_browser_module \
 --without-http_empty_gif_module --without-http_limit_conn_module \
